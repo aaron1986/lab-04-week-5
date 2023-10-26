@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function Header({ handleNumberChange, handleSearch }) {
+export default function Header({ handleSearch }) {
   const [searchKeyword, setSearchKeyword] = useState("");
 
   const handleSearchChange = (event) => {

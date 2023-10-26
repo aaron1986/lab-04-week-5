@@ -7,7 +7,6 @@ import Footer from './components/Footer';
 function App() {
   const [selectedImages, setSelectedImages] = useState(null);
   const [searchKeyword, setSearchKeyword] = useState("");
-  const [filteredData, setFilteredData] = useState(Data);
 
   const handleNumberChange = (event) => {
     setSelectedImages(event.target.value);
