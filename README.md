@@ -1,2 +1,2 @@
 
-![alt text](https://ibb.co/ZXz9P3D)
+![alt text](https://i.ibb.co/JtjZ4NJ/lighthouse.png)
