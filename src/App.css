@@ -1,0 +1,85 @@
+/*body CSS */
+* {
+  margin:0;
+  padding:0;
+}
+body {
+
+}
+
+/* Header */
+header {
+  background-color: #343b48;
+  margin-top:0;
+}
+
+nav {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  top: 0;
+  font-family: 'nav-text';
+  justify-content: end;
+}
+
+ul {
+  list-style: none;
+}
+
+li, a {
+  display: inline-block;
+  padding: 10px 10px;
+  margin-left: -5%;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  justify-content: end;
+}
+
+form {
+  margin-right: 5%;
+  padding-top: 1%;
+}
+
+/*section CSS */
+#grid {
+  margin-top:3%;
+ margin-bottom: 5%;
+ align-items: center;
+ display: flex;
+justify-content: center;
+}
+
+#image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+img {
+  width:200px;
+  height: 200px;
+ box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+ border-radius: 50%;
+ margin-bottom: 10%;
+}
+
+h3, p {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Footer */
+footer {
+  background-color: #343b48;
+  height: 90px;
+  width:100vw;
+  display: grid;
+}
+
+#footer-text {
+  color: white;
+  grid-row-start: 3;
+}
